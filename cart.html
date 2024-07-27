@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Costy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="nav container">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <a href="index.html" class="logo">COSTY</a>
+        <navbar class="navbar">
+          <a href="#" class="nav-link">Woman</a>
+          <a href="#" class="nav-link">Man</a>
+          <a href="#" class="nav-link">Kids</a>
+          <a href="#" class="nav-link">Acessories </a>
+        </navbar>
+        <a href="cart.html">
+          <i class="bx bx-shopping-bag" data-quantity="0"></i>
+        </a>
+      </div>
+    </header>
+    <!-- cart -->
+    <section class="cart-container container">
+      <a href="index.html" class="back-homepage">
+        <i class="bx bxs-left-arrow"></i>
+        <span>Back To Home</span>
+      </a>
+      <h2 class="shopping-cart">Shopping Cart</h2>
+      <div class="cart-box">
+        <div class="card-data">
+          <div id="cartItems">
+            <div class="cart-item">
+              <img
+                width="100"
+                src="https://pangaia.com/cdn/shop/products/Recycled-Cashmere-Core-Hoodie-Chestnut-Brown-Male-1.jpg?v=1663947464&width=1426"
+                alt=""
+              />
+              <div class="cart-item-info">
+                <h2 class="cart-item-title">title</h2>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cart-item-quantity"
+                />
+              </div>
+              <h2>price</h2>
+              <button class="remove-from-cart">Remove</button>
+            </div>
+            <div class="cart-item">
+              <img
+                width="100"
+                src="https://pangaia.com/cdn/shop/products/Recycled-Cashmere-Core-Hoodie-Chestnut-Brown-Male-1.jpg?v=1663947464&width=1426"
+                alt=""
+              />
+              <div class="cart-item-info">
+                <h2 class="cart-item-title">title</h2>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cart-item-quantity"
+                />
+              </div>
+              <h2>price</h2>
+              <button class="remove-from-cart">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-t">
+          <div id="cartTotal">123123</div>
+          <a href="#" class="checkout-btn">Checkout</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
